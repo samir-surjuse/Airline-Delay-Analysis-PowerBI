@@ -1,80 +1,103 @@
-# Airline-Delay-Analysis-PowerBI
-Exploratory Data Analysis of US Airline Delays using SQL and Power BI Dashboard
+⭐ Dubai Real Estate Intelligence Dashboard
 
-Project Overview
+📊 Interactive Real Estate Market Analysis using Power BI
 
-This project presents an interactive Airline Analysis Dashboard built using Power BI. The goal of this project is to analyze airline performance, flight delays, cancellations, and operational trends using a large flight dataset.
+📌 Project Overview
 
-The dashboard helps in understanding how airlines perform across different months, airports, days of the week, and flight distances.
+This project presents an interactive real estate analytics dashboard built using Microsoft Power BI.
+The dashboard analyzes Dubai housing market data to uncover insights related to property prices, property size, and neighborhood distribution.
+The goal of this project is to help investors, real estate agents, and analysts understand market trends and make data-driven decisions.
 
-Dataset
 
-The dataset contains information about approximately 6 million flight records including details such as:
+🗂 Dataset Description
 
-- Airline codes
-- Origin and destination airports
-- Flight delays
-- Departure times
-- Flight distance
-- Cancellation information
+The dataset contains property listings with the following attributes:
+Column
+Description
+📏 SquareFeet
+Size of the property in square feet
+🛏 Bedrooms
+Number of bedrooms
+🛁 Bathrooms
+Number of bathrooms
+📍 Neighborhood
+Location category (Urban, Suburb, Rural)
+🏗 YearBuilt
+Construction year of property
+💰 Price
+Property selling price
 
-Tools & Technologies Used
+🧹 Data Preparation
+Data cleaning and transformation were performed using Power Query:
+✔ Removed duplicates
+✔ Handled missing values
+✔ Corrected data types
 
-- Power BI
-- Data Modeling
-- DAX (Data Analysis Expressions)
-- Data Visualization
-- Exploratory Data Analysis
+📊 Calculated Columns
+The dataset was enhanced using the following calculated columns:
+Column
+Formula
+💰 PricePerSqft
+Price / SquareFeet
+🏠 PropertyAge
+2025 - YearBuilt
+🏷 ListingCategory
+Budget / Mid-Range / High-End
 
-Key KPIs
+📈 Measures Created
+Key performance metrics were calculated using DAX:
+📊 Total Listings
+💰 Average Price
+📏 Average Property Size
+💎 Highest Property Price
+💵 Average Price per Sqft
 
-The dashboard highlights several important performance metrics:
+📊 Dashboard Features
+🔹 KPI Cards
+Total Listings
+Average Property Price
+Average Property Size
+Average Price per Sqft
+Highest Property Price
 
-- Total Flights: ~6 Million
-- On-Time Performance Rate (OTP): 82.41%
-- Average Arrival Delay: 4.41 Minutes
-- Cancellation Rate: 1.54%
-- Total Cancelled Flights: ~90K
+📉 Visualizations
+📍 Scatter Plot – Property Size vs Price
+📍 Bar Chart – Average Price by Bathrooms
+📍 Column Chart – Listings by Neighborhood
+📍 Pie Chart – Listing Category Distribution
 
-Dashboard Features
+🎛 Interactive Filters
+The dashboard includes dynamic slicers:
+🛏 Bedrooms
+🛁 Bathrooms
+📍 Neighborhood
+🏷 Listing Category
+These filters allow users to explore the real estate market interactively.
 
-The dashboard includes multiple visualizations to analyze airline operations:
+💡 Key Insights
+📌 Larger properties tend to have higher prices.
+📌 Mid-range properties dominate the housing market.
+📌 Property listings are evenly distributed across neighborhoods.
 
-- Delay Distribution Analysis
-- Flights Distribution by Departure Hour
-- Monthly Flight Trends
-- Flights by Airline
-- Flights by Origin Airport
-- Flights by Day of Week
-- Flights Distribution by Distance
+🛠 Tools & Technologies
+Microsoft Power BI
+Power Query
+DAX (Data Analysis Expressions)
+Data Visualization
 
-Interactive filters (slicers) allow users to explore the data by:
+📂 Project Files
+File
+Description
+📊 Dubai_Real_Estate_Dashboard.pbix
+Power BI dashboard file
+📁 dataset.csv
+Dataset used for analysis
+🖼 dashboard.png
+Dashboard preview image
 
-- Airline
-- Month
-- Airport
+🚀 Project Outcome
+This project demonstrates how raw real estate data can be transformed into actionable business insights using interactive dashboards and data visualization techniques.
 
-Key Insights
-
-- Around 82% of flights arrive on time, indicating generally strong operational performance.
-- The average arrival delay is approximately 4.41 minutes.
-- The cancellation rate is relatively low at 1.54%.
-- Certain airports and airlines handle significantly higher flight volumes.
-- Flight operations vary across different months and days of the week.
-
-Project Purpose
-
-This project demonstrates how Power BI dashboards can be used for exploratory data analysis and operational insights in the airline industry.
-
-It also highlights skills in:
-
-- Data visualization
-- DAX calculations
-- Interactive dashboard design
-- Business insight generation
-
-Author
-
+👤 Author
 Samir Surjuse
-
-Data Analytics Enthusiast | Learning Power BI, SQL, Python
+📊 Data Analytics Enthusiast
