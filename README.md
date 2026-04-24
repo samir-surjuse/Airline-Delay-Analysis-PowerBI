@@ -12,18 +12,13 @@ The goal of this project is to help investors, real estate agents, and analysts 
 🗂 Dataset Description
 
 The dataset contains property listings with the following attributes:
-Column                Description
-📏 SquareFeet        Size of the property in square feet
-🛏 Bedrooms
-Number of bedrooms
-🛁 Bathrooms
-Number of bathrooms
-📍 Neighborhood
-Location category (Urban, Suburb, Rural)
-🏗 YearBuilt
-Construction year of property
-💰 Price
-Property selling price
+Column                 Description
+📏 SquareFeet     :   Size of the property in square feet
+🛏 Bedrooms        :   Number of bedrooms
+🛁 Bathrooms      :   Number of bathrooms
+📍 Neighborhood   :   Location category (Urban, Suburb, Rural)
+🏗 YearBuilt       :   Construction year of property
+💰 Price          :   Property selling price
 
 🧹 Data Preparation
 Data cleaning and transformation were performed using Power Query:
